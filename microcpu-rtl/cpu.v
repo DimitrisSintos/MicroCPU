@@ -25,11 +25,12 @@ wire [ALU_CMD_SIZE-1:0] alu_cmd;
 
 
 //opcodes for the supported instruction set
+//alu
 parameter  [OPCODE_SIZE-1:0]  OP_AND  = 0; //4'b0000
 parameter  [OPCODE_SIZE-1:0]  OP_OR   = 1; //4'b0001
 parameter  [OPCODE_SIZE-1:0]  OP_XOR  = 2; //4'b0010
 parameter  [OPCODE_SIZE-1:0]  OP_ADD  = 3; //4'b0011
-
+//register file
 parameter  [OPCODE_SIZE-1:0]  OP_MOV  = 4; //4'b0100
 parameter  [OPCODE_SIZE-1:0]  OP_LOAD_FROM_MEM = 5; //4'b0101
 parameter  [OPCODE_SIZE-1:0]  OP_STORE_TO_MEM = 6; //4'b0110
