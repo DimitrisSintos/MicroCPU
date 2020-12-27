@@ -1,0 +1,125 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vMCPU
+Z1 !s100 @hK280YPW9?2FnRO=_Fil3
+Z2 IGfgcGlIS8?7Yg:4QTo_Yg0
+Z3 Vh4TXE`ZVzDhj4>E6_5lW]2
+Z4 dD:\MP Homework\HM6\MicroCPU
+Z5 w1590966124
+Z6 8D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cpu.v
+Z7 FD:/MP Homework/HM6/MicroCPU/microcpu-rtl/cpu.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cpu.v|
+Z10 o-work work -O0
+Z11 n@m@c@p@u
+!i10b 1
+!s85 0
+Z12 !s108 1609081535.653000
+Z13 !s107 D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cpu.v|
+!s101 -O0
+vMCPU_Alu
+Z14 !s100 DcUn@=9;la^g<>6VXLFKW1
+Z15 Iob=zYfoFcY;QgBUUXZA7]2
+Z16 Vi24h?V]ZfRW64HYgZCj>Y2
+R4
+Z17 w1589970212
+Z18 8D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alu.v
+Z19 FD:/MP Homework/HM6/MicroCPU/microcpu-rtl/alu.v
+L0 1
+R8
+r1
+31
+Z20 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alu.v|
+R10
+Z21 n@m@c@p@u_@alu
+Z22 !s108 1609081535.387000
+Z23 !s107 D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMCPU_Alutb
+Z24 !s100 hz35`jg3[6fnk=:8XmLPQ1
+Z25 I>KaQWjAi?;5giH9>o^;]_0
+Z26 VT=bcXgo`mH^kNS75DQF1k3
+R4
+Z27 w1589970204
+Z28 8D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alutb.v
+Z29 FD:/MP Homework/HM6/MicroCPU/microcpu-rtl/alutb.v
+L0 1
+R8
+r1
+31
+Z30 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alutb.v|
+R10
+Z31 n@m@c@p@u_@alutb
+Z32 !s108 1609081535.535000
+Z33 !s107 D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alutb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMCPU_RAMController
+Z34 !s100 BA;:2[SG6<PfYk?D;:Sc^1
+Z35 I@FIfcmE8=R`IQHb15iA6J2
+Z36 VA7LX6N4aS>X^YNY=OLl981
+R4
+Z37 w1589815137
+Z38 8D:/MP Homework/HM6/MicroCPU/microcpu-rtl/ramcontroller.v
+Z39 FD:/MP Homework/HM6/MicroCPU/microcpu-rtl/ramcontroller.v
+L0 1
+R8
+r1
+31
+Z40 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/ramcontroller.v|
+R10
+Z41 n@m@c@p@u_@r@a@m@controller
+Z42 !s108 1609081535.105000
+Z43 !s107 D:/MP Homework/HM6/MicroCPU/microcpu-rtl/ramcontroller.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMCPU_Registerfile
+Z44 !s100 zo5ULcdmzS8aCLAIJ5DTP3
+Z45 Ia4dIG<_C]>h]OjUXJmWbB3
+Z46 VK=ClNCn;@E9oXUamG<[Va3
+R4
+Z47 w1590100682
+Z48 8D:/MP Homework/HM6/MicroCPU/microcpu-rtl/registerfile.v
+Z49 FD:/MP Homework/HM6/MicroCPU/microcpu-rtl/registerfile.v
+L0 1
+R8
+r1
+31
+Z50 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/registerfile.v|
+R10
+Z51 n@m@c@p@u_@registerfile
+Z52 !s108 1609081535.259000
+Z53 !s107 D:/MP Homework/HM6/MicroCPU/microcpu-rtl/registerfile.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMCPUtb
+!i10b 1
+Z54 !s100 9MzUFfTDiz>dl?V?NTG1V0
+Z55 Ioe>:DMRhZ5<UU9^lLi=:93
+Z56 VG=M@eZKVhf@FoX^n:^;JJ2
+R4
+w1609078963
+Z57 8D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cputb.v
+Z58 FD:/MP Homework/HM6/MicroCPU/microcpu-rtl/cputb.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1609081535.821000
+!s107 D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cputb.v|
+Z59 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cputb.v|
+!s101 -O0
+R10
+Z60 n@m@c@p@utb
