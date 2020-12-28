@@ -18,7 +18,7 @@ r1
 Z9 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cpu.v|
 Z10 o-work work -O0
 Z11 n@m@c@p@u
-Z12 !s108 1609149755.746000
+Z12 !s108 1609178315.668000
 Z13 !s107 D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cpu.v|
 !i10b 1
 !s85 0
@@ -38,7 +38,7 @@ r1
 Z20 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alu.v|
 R10
 Z21 n@m@c@p@u_@alu
-Z22 !s108 1609149755.483000
+Z22 !s108 1609178315.407000
 Z23 !s107 D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alu.v|
 !i10b 1
 !s85 0
@@ -58,7 +58,7 @@ r1
 Z30 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alutb.v|
 R10
 Z31 n@m@c@p@u_@alutb
-Z32 !s108 1609149755.616000
+Z32 !s108 1609178315.546000
 Z33 !s107 D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alutb.v|
 !i10b 1
 !s85 0
@@ -78,88 +78,108 @@ r1
 Z40 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/alutb_A.v|
 R10
 Z41 n@m@c@p@u_@alutb_@a
-Z42 !s108 1609149756.161000
+Z42 !s108 1609178316.007000
 Z43 !s107 D:/MP Homework/HM6/MicroCPU/alutb_A.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vMCPU_Alutb_B
+Z44 !s100 @DR6;P^4B;XO_:QTUcH:F3
+Z45 I9X1gGa]ijE2Fc29Wfkz7Q1
+Z46 VfD:BGCFSAKlJ:X>RT>0fK3
+R4
+Z47 w1609150218
+Z48 8D:/MP Homework/HM6/MicroCPU/alutb_B.v
+Z49 FD:/MP Homework/HM6/MicroCPU/alutb_B.v
+L0 1
+R8
+r1
+31
+Z50 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/alutb_B.v|
+R10
+Z51 n@m@c@p@u_@alutb_@b
 !i10b 1
-!s100 @DR6;P^4B;XO_:QTUcH:F3
-I9X1gGa]ijE2Fc29Wfkz7Q1
-Z44 VfD:BGCFSAKlJ:X>RT>0fK3
-R4
-w1609150218
-Z45 8D:/MP Homework/HM6/MicroCPU/alutb_B.v
-Z46 FD:/MP Homework/HM6/MicroCPU/alutb_B.v
-L0 1
-R8
-r1
 !s85 0
-31
-!s108 1609150227.389000
-!s107 D:/MP Homework/HM6/MicroCPU/alutb_B.v|
-Z47 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/alutb_B.v|
+Z52 !s108 1609178316.139000
+Z53 !s107 D:/MP Homework/HM6/MicroCPU/alutb_B.v|
 !s101 -O0
-R10
-Z48 n@m@c@p@u_@alutb_@b
 vMCPU_RAMController
-Z49 !s100 BA;:2[SG6<PfYk?D;:Sc^1
-Z50 I@FIfcmE8=R`IQHb15iA6J2
-Z51 VA7LX6N4aS>X^YNY=OLl981
+Z54 !s100 BA;:2[SG6<PfYk?D;:Sc^1
+Z55 I@FIfcmE8=R`IQHb15iA6J2
+Z56 VA7LX6N4aS>X^YNY=OLl981
 R4
-Z52 w1589815137
-Z53 8D:/MP Homework/HM6/MicroCPU/microcpu-rtl/ramcontroller.v
-Z54 FD:/MP Homework/HM6/MicroCPU/microcpu-rtl/ramcontroller.v
+Z57 w1589815137
+Z58 8D:/MP Homework/HM6/MicroCPU/microcpu-rtl/ramcontroller.v
+Z59 FD:/MP Homework/HM6/MicroCPU/microcpu-rtl/ramcontroller.v
 L0 1
 R8
 r1
 31
-Z55 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/ramcontroller.v|
+Z60 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/ramcontroller.v|
 R10
-Z56 n@m@c@p@u_@r@a@m@controller
-Z57 !s108 1609149755.201000
-Z58 !s107 D:/MP Homework/HM6/MicroCPU/microcpu-rtl/ramcontroller.v|
+Z61 n@m@c@p@u_@r@a@m@controller
+Z62 !s108 1609178315.108000
+Z63 !s107 D:/MP Homework/HM6/MicroCPU/microcpu-rtl/ramcontroller.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vMCPU_Registerfile
-Z59 !s100 zo5ULcdmzS8aCLAIJ5DTP3
-Z60 Ia4dIG<_C]>h]OjUXJmWbB3
-Z61 VK=ClNCn;@E9oXUamG<[Va3
+Z64 !s100 zo5ULcdmzS8aCLAIJ5DTP3
+Z65 Ia4dIG<_C]>h]OjUXJmWbB3
+Z66 VK=ClNCn;@E9oXUamG<[Va3
 R4
-Z62 w1590100682
-Z63 8D:/MP Homework/HM6/MicroCPU/microcpu-rtl/registerfile.v
-Z64 FD:/MP Homework/HM6/MicroCPU/microcpu-rtl/registerfile.v
+Z67 w1590100682
+Z68 8D:/MP Homework/HM6/MicroCPU/microcpu-rtl/registerfile.v
+Z69 FD:/MP Homework/HM6/MicroCPU/microcpu-rtl/registerfile.v
 L0 1
 R8
 r1
 31
-Z65 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/registerfile.v|
+Z70 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/registerfile.v|
 R10
-Z66 n@m@c@p@u_@registerfile
-Z67 !s108 1609149755.359000
-Z68 !s107 D:/MP Homework/HM6/MicroCPU/microcpu-rtl/registerfile.v|
+Z71 n@m@c@p@u_@registerfile
+Z72 !s108 1609178315.258000
+Z73 !s107 D:/MP Homework/HM6/MicroCPU/microcpu-rtl/registerfile.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vMCPUtb
-Z69 !s100 9MzUFfTDiz>dl?V?NTG1V0
-Z70 Ioe>:DMRhZ5<UU9^lLi=:93
-Z71 VG=M@eZKVhf@FoX^n:^;JJ2
+Z74 !s100 9MzUFfTDiz>dl?V?NTG1V0
+Z75 Ioe>:DMRhZ5<UU9^lLi=:93
+Z76 VG=M@eZKVhf@FoX^n:^;JJ2
 R4
-Z72 w1609078963
-Z73 8D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cputb.v
-Z74 FD:/MP Homework/HM6/MicroCPU/microcpu-rtl/cputb.v
+Z77 w1609078963
+Z78 8D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cputb.v
+Z79 FD:/MP Homework/HM6/MicroCPU/microcpu-rtl/cputb.v
 L0 1
 R8
 r1
 31
-Z75 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cputb.v|
+Z80 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cputb.v|
 R10
-Z76 n@m@c@p@utb
-Z77 !s108 1609149755.938000
-Z78 !s107 D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cputb.v|
+Z81 n@m@c@p@utb
+Z82 !s108 1609178315.847000
+Z83 !s107 D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cputb.v|
 !i10b 1
 !s85 0
 !s101 -O0
+vMPCPU_Ramtb
+!i10b 1
+!s100 g72?EnV8j[k8IC]m[`dh^2
+IH>fW;91M<egeOB]>Og3L?1
+Z84 V[cLUFY`7PEkCR`fCOh[gg0
+R4
+w1609178195
+Z85 8D:/MP Homework/HM6/MicroCPU/Ramtb.v
+Z86 FD:/MP Homework/HM6/MicroCPU/Ramtb.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1609178316.284000
+!s107 D:/MP Homework/HM6/MicroCPU/Ramtb.v|
+Z87 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/Ramtb.v|
+!s101 -O0
+R10
+Z88 n@m@p@c@p@u_@ramtb
