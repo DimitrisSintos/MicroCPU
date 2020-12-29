@@ -17,6 +17,8 @@ wire [WORD_SIZE-1:0] instrrd;
 
 reg [WORD_SIZE-1:0] memcopy[RAM_SIZE-1:0];
 
+reg datacorrect , instrcorrect;
+
 integer i;
 
 MCPU_RAMController #(.ADDR_WIDTH(ADDR_WIDTH), .WORD_SIZE(WORD_SIZE), .RAM_SIZE(RAM_SIZE)) ramcontrollerinst (we,datawr,re,addr,datard,instraddr,instrrd);
@@ -46,22 +48,32 @@ initial
       memcopy[i] = ramcontrollerinst.mem[i];
     end
     
-    #10 re = 1;
-    instraddr = 8'b00000000;
+    #10 re = 1'b1;
+    
     addr = 8'b00000000;
+    instraddr = 8'b00000000;
     repeat(256) begin
+      #3
+      if( datard==memcopy[addr]) begin //re==1'b1 &&
+          datacorrect <= 1;
+      end else begin
+          datacorrect <= 0; 
+          end 
+          
+      if (instrrd ==  memcopy[instraddr]) begin
+         #3 instrcorrect <=1;
+      end else begin
+        #3 instrcorrect <= 0; 
+          end 
       #3
       addr = addr + 8'b00000001;
       instraddr = instraddr + 8'b00000001;
-      //if mem[addr] = memcopy[addr]
-      //if mem[instraddr] = memcopy[instraddr]
-      
     end
+  
+    
     
     
     
 end
-
-//repeat(256) begin
 
 endmodule

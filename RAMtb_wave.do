@@ -8,6 +8,9 @@ add wave -noupdate /MPCPU_Ramtb/instraddr
 add wave -noupdate /MPCPU_Ramtb/datard
 add wave -noupdate /MPCPU_Ramtb/instrrd
 add wave -noupdate /MPCPU_Ramtb/ramcontrollerinst/mem
+add wave -noupdate /MPCPU_Ramtb/memcopy
+add wave -noupdate /MPCPU_Ramtb/datacorrect
+add wave -noupdate /MPCPU_Ramtb/instrcorrect
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {51 ps} 0}
 quietly wave cursor active 1

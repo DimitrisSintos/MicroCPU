@@ -1,16 +1,9 @@
-{D:/MP Homework/HM6/MicroCPU/alutb_A.v} {1 {vlog -work work {D:/MP Homework/HM6/MicroCPU/alutb_A.v}
+{D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cpu.v} {1 {vlog -work work {D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cpu.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module MCPU_Alutb_A
+-- Compiling module MCPU
 
 Top level modules:
-	MCPU_Alutb_A
-
-} {} {}} {D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alutb.v} {1 {vlog -work work {D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alutb.v}
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module MCPU_Alutb
-
-Top level modules:
-	MCPU_Alutb
+	MCPU
 
 } {} {}} {D:/MP Homework/HM6/MicroCPU/microcpu-rtl/ramcontroller.v} {1 {vlog -work work {D:/MP Homework/HM6/MicroCPU/microcpu-rtl/ramcontroller.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -19,19 +12,19 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	MCPU_RAMController
 
-} {} {}} {D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cpu.v} {1 {vlog -work work {D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cpu.v}
+} {} {}} {D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alutb.v} {1 {vlog -work work {D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alutb.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module MCPU
+-- Compiling module MCPU_Alutb
 
 Top level modules:
-	MCPU
+	MCPU_Alutb
 
-} {} {}} {D:/MP Homework/HM6/MicroCPU/alutb_B.v} {1 {vlog -work work {D:/MP Homework/HM6/MicroCPU/alutb_B.v}
+} {} {}} {D:/MP Homework/HM6/MicroCPU/alutb_A.v} {1 {vlog -work work {D:/MP Homework/HM6/MicroCPU/alutb_A.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module MCPU_Alutb_B
+-- Compiling module MCPU_Alutb_A
 
 Top level modules:
-	MCPU_Alutb_B
+	MCPU_Alutb_A
 
 } {} {}} {D:/MP Homework/HM6/MicroCPU/microcpu-rtl/registerfile.v} {1 {vlog -work work {D:/MP Homework/HM6/MicroCPU/microcpu-rtl/registerfile.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -40,19 +33,12 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	MCPU_Registerfile
 
-} {} {}} {D:/MP Homework/HM6/MicroCPU/Ramtb.v} {1 {vlog -work work {D:/MP Homework/HM6/MicroCPU/Ramtb.v}
+} {} {}} {D:/MP Homework/HM6/MicroCPU/alutb_B.v} {1 {vlog -work work {D:/MP Homework/HM6/MicroCPU/alutb_B.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module MPCPU_Ramtb
+-- Compiling module MCPU_Alutb_B
 
 Top level modules:
-	MPCPU_Ramtb
-
-} {} {}} {D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alu.v} {1 {vlog -work work {D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alu.v}
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module MCPU_Alu
-
-Top level modules:
-	MCPU_Alu
+	MCPU_Alutb_B
 
 } {} {}} {D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cputb.v} {1 {vlog -work work {D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cputb.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -60,5 +46,12 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 Top level modules:
 	MCPUtb
+
+} {} {}} {D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alu.v} {1 {vlog -work work {D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alu.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MCPU_Alu
+
+Top level modules:
+	MCPU_Alu
 
 } {} {}}
