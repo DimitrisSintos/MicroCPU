@@ -4,7 +4,7 @@ entity MCPU_Registerfile is
     generic(
         WORD_SIZE       : integer := 8;
         OPERAND_SIZE    : integer := 4;
-        REGS_NUMBER_WIDTH: integer := 2;
+        REGS_NUMBER_WIDTH: integer := 4;
         REGISTERS_NUMBER: vl_notype;
         NORMAL_EX       : vl_logic_vector(1 downto 0) := (Hi0, Hi0);
         MOV_INTERNAL    : vl_logic_vector(1 downto 0) := (Hi0, Hi1);
