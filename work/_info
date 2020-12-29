@@ -18,7 +18,7 @@ r1
 Z9 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cpu.v|
 Z10 o-work work -O0
 Z11 n@m@c@p@u
-Z12 !s108 1609229312.849000
+Z12 !s108 1609230767.340000
 Z13 !s107 D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cpu.v|
 !i10b 1
 !s85 0
@@ -38,7 +38,7 @@ r1
 Z20 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alu.v|
 R10
 Z21 n@m@c@p@u_@alu
-Z22 !s108 1609229312.555000
+Z22 !s108 1609230767.053000
 Z23 !s107 D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alu.v|
 !i10b 1
 !s85 0
@@ -58,7 +58,7 @@ r1
 Z30 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alutb.v|
 R10
 Z31 n@m@c@p@u_@alutb
-Z32 !s108 1609229312.728000
+Z32 !s108 1609230767.200000
 Z33 !s107 D:/MP Homework/HM6/MicroCPU/microcpu-rtl/alutb.v|
 !i10b 1
 !s85 0
@@ -78,7 +78,7 @@ r1
 Z40 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/alutb_A.v|
 R10
 Z41 n@m@c@p@u_@alutb_@a
-Z42 !s108 1609229313.153000
+Z42 !s108 1609230767.618000
 Z43 !s107 D:/MP Homework/HM6/MicroCPU/alutb_A.v|
 !i10b 1
 !s85 0
@@ -98,27 +98,27 @@ r1
 Z50 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/alutb_B.v|
 R10
 Z51 n@m@c@p@u_@alutb_@b
-Z52 !s108 1609229313.328000
+Z52 !s108 1609230767.922000
 Z53 !s107 D:/MP Homework/HM6/MicroCPU/alutb_B.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vMCPU_RAMController
-Z54 IhUUbe94c48<5ebmz9PD3]1
-Z55 VnH^UFRWKP>WJebRZN^Dng0
+Z54 !s100 LQ1m^^g=_W;VkXEhC]><I0
+Z55 IhUUbe94c48<5ebmz9PD3]1
+Z56 VnH^UFRWKP>WJebRZN^Dng0
 R4
-Z56 w1609229308
-Z57 8D:/MP Homework/HM6/MicroCPU/microcpu-rtl/ramcontroller.v
-Z58 FD:/MP Homework/HM6/MicroCPU/microcpu-rtl/ramcontroller.v
+Z57 w1609229308
+Z58 8D:/MP Homework/HM6/MicroCPU/microcpu-rtl/ramcontroller.v
+Z59 FD:/MP Homework/HM6/MicroCPU/microcpu-rtl/ramcontroller.v
 L0 1
 R8
 r1
 31
-Z59 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/ramcontroller.v|
+Z60 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/ramcontroller.v|
 R10
-Z60 n@m@c@p@u_@r@a@m@controller
-Z61 !s100 LQ1m^^g=_W;VkXEhC]><I0
-Z62 !s108 1609229312.189000
+Z61 n@m@c@p@u_@r@a@m@controller
+Z62 !s108 1609230766.781000
 Z63 !s107 D:/MP Homework/HM6/MicroCPU/microcpu-rtl/ramcontroller.v|
 !i10b 1
 !s85 0
@@ -138,7 +138,7 @@ r1
 Z70 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/registerfile.v|
 R10
 Z71 n@m@c@p@u_@registerfile
-Z72 !s108 1609229312.379000
+Z72 !s108 1609230766.915000
 Z73 !s107 D:/MP Homework/HM6/MicroCPU/microcpu-rtl/registerfile.v|
 !i10b 1
 !s85 0
@@ -158,48 +158,48 @@ r1
 Z80 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cputb.v|
 R10
 Z81 n@m@c@p@utb
-Z82 !s108 1609229312.991000
+Z82 !s108 1609230767.485000
 Z83 !s107 D:/MP Homework/HM6/MicroCPU/microcpu-rtl/cputb.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vMPCPU_Ramtb
-Z84 !s100 Q3Znc?[J66z3UTAZQ]c_a0
-Z85 I7;Hdeg1GN[LMUj<9BUezK1
-Z86 V[cLUFY`7PEkCR`fCOh[gg0
+Z84 IUO4L2=2zDSimA7eoIhPS:0
+Z85 V[cLUFY`7PEkCR`fCOh[gg0
 R4
-Z87 w1609228619
-Z88 8D:/MP Homework/HM6/MicroCPU/Ramtb.v
-Z89 FD:/MP Homework/HM6/MicroCPU/Ramtb.v
+Z86 w1609230739
+Z87 8D:/MP Homework/HM6/MicroCPU/Ramtb.v
+Z88 FD:/MP Homework/HM6/MicroCPU/Ramtb.v
 L0 1
 R8
 r1
 31
-Z90 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/Ramtb.v|
+Z89 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/Ramtb.v|
 R10
-Z91 n@m@p@c@p@u_@ramtb
+Z90 n@m@p@c@p@u_@ramtb
 !i10b 1
+Z91 !s100 j:O;=UfO`C=ZgmhmO5bV`3
 !s85 0
-Z92 !s108 1609229313.726000
+Z92 !s108 1609230768.055000
 Z93 !s107 D:/MP Homework/HM6/MicroCPU/Ramtb.v|
 !s101 -O0
 vMPCPU_Ramtb_B
 !i10b 1
-!s100 MWXF:89Z?SXGh]IYN@WDM2
-I:Xl_I0TTXhag0?CQCckIS3
-VWT7VZ1z10IFdTU@8bOh=D1
+!s100 MAESLD?[f:3N3aX;28LG>3
+Izk:MAd:FAX6][[Za`feFI0
+Z94 VWT7VZ1z10IFdTU@8bOh=D1
 R4
-w1609229302
-Z94 8D:/MP Homework/HM6/MicroCPU/Ramtb_B.v
-Z95 FD:/MP Homework/HM6/MicroCPU/Ramtb_B.v
+w1609230760
+Z95 8D:/MP Homework/HM6/MicroCPU/Ramtb_B.v
+Z96 FD:/MP Homework/HM6/MicroCPU/Ramtb_B.v
 L0 1
 R8
 r1
 !s85 0
 31
-!s108 1609229313.876000
+!s108 1609230768.183000
 !s107 D:/MP Homework/HM6/MicroCPU/Ramtb_B.v|
-Z96 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/Ramtb_B.v|
+Z97 !s90 -reportprogress|300|-work|work|D:/MP Homework/HM6/MicroCPU/Ramtb_B.v|
 !s101 -O0
 R10
-Z97 n@m@p@c@p@u_@ramtb_@b
+Z98 n@m@p@c@p@u_@ramtb_@b

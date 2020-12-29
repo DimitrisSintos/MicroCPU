@@ -1,6 +1,6 @@
 module MPCPU_Ramtb_B();
 
-parameter WORD_SIZE = 8;
+parameter WORD_SIZE = 16;
 parameter ADDR_WIDTH  = 8;
 parameter RAM_SIZE=1<<ADDR_WIDTH;
 
@@ -47,7 +47,7 @@ initial
     instraddr = 8'b00000000;
     repeat(256) begin
       #3
-      if( datard==memcopy[addr]) begin //re==1'b1 &&
+      if(re==1'b1 && datard==memcopy[addr]) begin 
           datacorrect <= 1;
       end else begin
           datacorrect <= 0; 

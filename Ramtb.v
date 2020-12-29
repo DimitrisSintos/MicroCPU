@@ -54,7 +54,7 @@ initial
     instraddr = 8'b00000000;
     repeat(256) begin
       #3
-      if( datard==memcopy[addr]) begin //re==1'b1 &&
+      if( re==1'b1 && datard==memcopy[addr]) begin 
           datacorrect <= 1;
       end else begin
           datacorrect <= 0; 
@@ -68,7 +68,8 @@ initial
       #3
       addr = addr + 8'b00000001;
       instraddr = instraddr + 8'b00000001;
-    end   
+    end
+    re = 0;   
 end
 
 endmodule
