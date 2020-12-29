@@ -1,5 +1,5 @@
 module MCPU_RAMController(we, datawr, re, addr, datard, instraddr, instrrd);
-parameter WORD_SIZE=16;
+parameter WORD_SIZE=8;
 parameter ADDR_WIDTH=8;
 parameter RAM_SIZE=1<<ADDR_WIDTH;
 
