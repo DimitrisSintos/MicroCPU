@@ -2,11 +2,13 @@ library verilog;
 use verilog.vl_types.all;
 entity MCPU_Alu is
     generic(
-        CMD_SIZE        : integer := 2;
+        CMD_SIZE        : integer := 3;
         WORD_SIZE       : integer := 16;
         CMD_AND         : vl_logic_vector;
         CMD_OR          : vl_logic_vector;
         CMD_XOR         : vl_logic_vector;
+        CMD_LSL         : vl_logic_vector;
+        CMD_LSR         : vl_logic_vector;
         CMD_ADD         : vl_logic_vector
     );
     port(
@@ -22,5 +24,7 @@ entity MCPU_Alu is
     attribute mti_svvh_generic_type of CMD_AND : constant is 4;
     attribute mti_svvh_generic_type of CMD_OR : constant is 4;
     attribute mti_svvh_generic_type of CMD_XOR : constant is 4;
+    attribute mti_svvh_generic_type of CMD_LSL : constant is 4;
+    attribute mti_svvh_generic_type of CMD_LSR : constant is 4;
     attribute mti_svvh_generic_type of CMD_ADD : constant is 4;
 end MCPU_Alu;

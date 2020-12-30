@@ -4,7 +4,7 @@ module MCPU(clk, reset);
 parameter WORD_SIZE=16; //WORD_SIZE is the word size of our processor. Each word is 16 bits or 2 bytes
 parameter ADDR_WIDTH=8; //that means 2^8=256 size of memory of WORD_SIZE word
 parameter OPCODE_SIZE=4;
-parameter ALU_CMD_SIZE=2;
+parameter ALU_CMD_SIZE=3;
 parameter OPERAND_SIZE=4;
 
 
@@ -25,16 +25,19 @@ wire [ALU_CMD_SIZE-1:0] alu_cmd;
 
 
 //opcodes for the supported instruction set
+//alu
 parameter  [OPCODE_SIZE-1:0]  OP_AND  = 0; //4'b0000
 parameter  [OPCODE_SIZE-1:0]  OP_OR   = 1; //4'b0001
 parameter  [OPCODE_SIZE-1:0]  OP_XOR  = 2; //4'b0010
 parameter  [OPCODE_SIZE-1:0]  OP_ADD  = 3; //4'b0011
-
-parameter  [OPCODE_SIZE-1:0]  OP_MOV  = 4; //4'b0100
-parameter  [OPCODE_SIZE-1:0]  OP_LOAD_FROM_MEM = 5; //4'b0101
-parameter  [OPCODE_SIZE-1:0]  OP_STORE_TO_MEM = 6; //4'b0110
-parameter  [OPCODE_SIZE-1:0]  OP_SHORT_TO_REG = 7; //4'b0111
-parameter  [OPCODE_SIZE-1:0]  OP_BNZ   = 8; //4'b1000
+parameter  [OPCODE_SIZE-1:0]  OP_LSL  = 4; //4'b0100
+parameter  [OPCODE_SIZE-1:0]  OP_LSR  = 5; //4'b0101
+//register file
+parameter  [OPCODE_SIZE-1:0]  OP_MOV  = 6; //4'b0110
+parameter  [OPCODE_SIZE-1:0]  OP_LOAD_FROM_MEM = 7; //4'b0111
+parameter  [OPCODE_SIZE-1:0]  OP_STORE_TO_MEM = 8; //4'b1000
+parameter  [OPCODE_SIZE-1:0]  OP_SHORT_TO_REG = 9; //4'b1001
+parameter  [OPCODE_SIZE-1:0]  OP_BNZ   = 10; //4'b1010
 
 //control signals for ALU
 wire [WORD_SIZE-1:0] alu_in1;

@@ -27,8 +27,8 @@ always @ (cmd, in1, in2)
   #2
 case(cmd)
   CMD_AND : begin
-              out = in1&in2; 
-            end
+               out = in1&in2; 
+      end
   CMD_OR : begin
               out = in1|in2;
             end

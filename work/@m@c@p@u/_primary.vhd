@@ -5,13 +5,15 @@ entity MCPU is
         WORD_SIZE       : integer := 16;
         ADDR_WIDTH      : integer := 8;
         OPCODE_SIZE     : integer := 4;
-        ALU_CMD_SIZE    : integer := 2;
+        ALU_CMD_SIZE    : integer := 3;
         OPERAND_SIZE    : integer := 4;
         INSTRUCTION_SIZE: vl_notype;
         OP_AND          : vl_logic_vector;
         OP_OR           : vl_logic_vector;
         OP_XOR          : vl_logic_vector;
         OP_ADD          : vl_logic_vector;
+        OP_LSL          : vl_logic_vector;
+        OP_LSR          : vl_logic_vector;
         OP_MOV          : vl_logic_vector;
         OP_LOAD_FROM_MEM: vl_logic_vector;
         OP_STORE_TO_MEM : vl_logic_vector;
@@ -37,6 +39,8 @@ entity MCPU is
     attribute mti_svvh_generic_type of OP_OR : constant is 4;
     attribute mti_svvh_generic_type of OP_XOR : constant is 4;
     attribute mti_svvh_generic_type of OP_ADD : constant is 4;
+    attribute mti_svvh_generic_type of OP_LSL : constant is 4;
+    attribute mti_svvh_generic_type of OP_LSR : constant is 4;
     attribute mti_svvh_generic_type of OP_MOV : constant is 4;
     attribute mti_svvh_generic_type of OP_LOAD_FROM_MEM : constant is 4;
     attribute mti_svvh_generic_type of OP_STORE_TO_MEM : constant is 4;
