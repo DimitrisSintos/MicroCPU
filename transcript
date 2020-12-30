@@ -1,0 +1,521 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# OpenFile {D:/MP Homework/HM6/MicroCPU/MicroCPU.mpf} 
+# Loading project MicroCPU
+# Compile of ramcontroller.v was successful.
+# Compile of registerfile.v was successful.
+# Compile of alu.v was successful.
+# Compile of alutb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of cputb.v was successful.
+# Compile of alutb_A.v was successful.
+# Compile of alutb_B.v was successful.
+# Compile of Ramtb.v was successful.
+# Compile of Ramtb_B.v was successful.
+# Compile of benchmark_regfile.v was successful.
+# Compile of benchmark_regfile_B.v was successful.
+# 12 compiles, 0 failed with no errors. 
+vsim work.MCPUtb
+# vsim work.MCPUtb 
+# Loading work.MCPUtb
+# Loading work.MCPU
+# Loading work.MCPU_Alu
+# Loading work.MCPU_Registerfile
+# Loading work.MCPU_RAMController
+do {D:/MP Homework/HM6/MicroCPU/Fibonacci_wave.do}
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: dimsi  Hostname: DESKTOP-V5P4235  ProcessID: 13980
+# 
+#           Attempting to use alternate WLF file "./wlftv2te8m".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftv2te8m
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+vsim work.MCPU_regfile_benchmark_B
+# vsim work.MCPU_regfile_benchmark_B 
+# Loading work.MCPU_regfile_benchmark_B
+# Loading work.MCPU
+# Loading work.MCPU_Alu
+# Loading work.MCPU_Registerfile
+# Loading work.MCPU_RAMController
+do {D:/MP Homework/HM6/MicroCPU/regfile_benchmark_B_wave.do}
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: dimsi  Hostname: DESKTOP-V5P4235  ProcessID: 13980
+# 
+#           Attempting to use alternate WLF file "./wlftqv04cg".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftqv04cg
+# 
+run
+run
+run
+# Compile of ramcontroller.v was successful.
+# Compile of registerfile.v was successful.
+# Compile of alu.v was successful.
+# Compile of alutb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of cputb.v was successful.
+# Compile of alutb_A.v was successful.
+# Compile of alutb_B.v was successful.
+# Compile of Ramtb.v was successful.
+# Compile of Ramtb_B.v was successful.
+# Compile of benchmark_regfile.v was successful.
+# Compile of benchmark_regfile_B.v was successful.
+# Compile of LogicalShift_testbench.v was successful.
+# 13 compiles, 0 failed with no errors. 
+vsim work.MCPU_Logical_Shift
+# vsim work.MCPU_Logical_Shift 
+# Loading work.MCPU_Logical_Shift
+# Loading work.MCPU
+# Loading work.MCPU_Alu
+# Loading work.MCPU_Registerfile
+# Loading work.MCPU_RAMController
+add wave -position end  sim:/MCPU_Logical_Shift/cpuinst/STATE_AS_STR
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: dimsi  Hostname: DESKTOP-V5P4235  ProcessID: 13980
+# 
+#           Attempting to use alternate WLF file "./wlft6d1we6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft6d1we6
+# 
+add wave -position end  sim:/MCPU_Logical_Shift/cpuinst/pc
+add wave -position end  sim:/MCPU_Logical_Shift/cpuinst/opcode
+add wave -position end  sim:/MCPU_Logical_Shift/cpuinst/operand1
+add wave -position end  sim:/MCPU_Logical_Shift/cpuinst/operand2
+add wave -position end  sim:/MCPU_Logical_Shift/cpuinst/operand3
+add wave -position end  sim:/MCPU_Logical_Shift/cpuinst/alu_cmd
+add wave -position end  sim:/MCPU_Logical_Shift/cpuinst/alu_in1
+add wave -position end  sim:/MCPU_Logical_Shift/cpuinst/alu_in2
+add wave -position end  sim:/MCPU_Logical_Shift/cpuinst/alu_out
+add wave -position end  sim:/MCPU_Logical_Shift/cpuinst/CARRY
+add wave -position end  sim:/MCPU_Logical_Shift/cpuinst/regset_cmd
+add wave -position end  sim:/MCPU_Logical_Shift/cpuinst/regset_wb
+add wave -position end  sim:/MCPU_Logical_Shift/cpuinst/regdatatoload
+add wave -position end  sim:/MCPU_Logical_Shift/cpuinst/RegOp1
+add wave -position end  sim:/MCPU_Logical_Shift/cpuinst/regfileinst/R
+add wave -position end  sim:/MCPU_Logical_Shift/cpuinst/raminst/mem
+run
+run
+run
+restart
+# Compile of ramcontroller.v was successful.
+# Compile of registerfile.v was successful.
+# Compile of alu.v was successful.
+# Compile of alutb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of cputb.v was successful.
+# Compile of alutb_A.v was successful.
+# Compile of alutb_B.v was successful.
+# Compile of Ramtb.v was successful.
+# Compile of Ramtb_B.v was successful.
+# Compile of benchmark_regfile.v was successful.
+# Compile of benchmark_regfile_B.v was successful.
+# Compile of LogicalShift_testbench.v was successful.
+# 13 compiles, 0 failed with no errors. 
+restart
+# Loading work.MCPU_Logical_Shift
+# Loading work.MCPU
+# Loading work.MCPU_Alu
+# Loading work.MCPU_Registerfile
+# Loading work.MCPU_RAMController
+run
+run
+run
+run
+# Compile of ramcontroller.v was successful.
+# Compile of registerfile.v was successful.
+# Compile of alu.v was successful.
+# Compile of alutb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of cputb.v was successful.
+# Compile of alutb_A.v was successful.
+# Compile of alutb_B.v was successful.
+# Compile of Ramtb.v was successful.
+# Compile of Ramtb_B.v was successful.
+# Compile of benchmark_regfile.v was successful.
+# Compile of benchmark_regfile_B.v was successful.
+# Compile of LogicalShift_testbench.v was successful.
+# 13 compiles, 0 failed with no errors. 
+restart
+# Loading work.MCPU_Logical_Shift
+# Loading work.MCPU
+# Loading work.MCPU_Alu
+# Loading work.MCPU_Registerfile
+# Loading work.MCPU_RAMController
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+restart
+# Compile of ramcontroller.v was successful.
+# Compile of registerfile.v was successful.
+# Compile of alu.v was successful.
+# Compile of alutb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of cputb.v was successful.
+# Compile of alutb_A.v was successful.
+# Compile of alutb_B.v was successful.
+# Compile of Ramtb.v was successful.
+# Compile of Ramtb_B.v was successful.
+# Compile of benchmark_regfile.v was successful.
+# Compile of benchmark_regfile_B.v was successful.
+# Compile of LogicalShift_testbench.v was successful.
+# 13 compiles, 0 failed with no errors. 
+restart
+# Loading work.MCPU_Logical_Shift
+# Loading work.MCPU
+# Loading work.MCPU_Alu
+# Loading work.MCPU_Registerfile
+# Loading work.MCPU_RAMController
+run
+run
+run
+run
+run
+# Compile of ramcontroller.v was successful.
+# Compile of registerfile.v was successful.
+# Compile of alu.v was successful.
+# Compile of alutb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of cputb.v was successful.
+# Compile of alutb_A.v was successful.
+# Compile of alutb_B.v was successful.
+# Compile of Ramtb.v was successful.
+# Compile of Ramtb_B.v was successful.
+# Compile of benchmark_regfile.v was successful.
+# Compile of benchmark_regfile_B.v was successful.
+# Compile of LogicalShift_testbench.v was successful.
+# 13 compiles, 0 failed with no errors. 
+restart
+# Loading work.MCPU_Logical_Shift
+# Loading work.MCPU
+# Loading work.MCPU_Alu
+# Loading work.MCPU_Registerfile
+# Loading work.MCPU_RAMController
+run
+run
+run
+run
+# Compile of ramcontroller.v was successful.
+# Compile of registerfile.v was successful.
+# Compile of alu.v was successful.
+# Compile of alutb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of cputb.v was successful.
+# Compile of alutb_A.v was successful.
+# Compile of alutb_B.v was successful.
+# Compile of Ramtb.v was successful.
+# Compile of Ramtb_B.v was successful.
+# Compile of benchmark_regfile.v was successful.
+# Compile of benchmark_regfile_B.v was successful.
+# Compile of LogicalShift_testbench.v was successful.
+# 13 compiles, 0 failed with no errors. 
+restart
+# Loading work.MCPU_Logical_Shift
+# Loading work.MCPU
+# Loading work.MCPU_Alu
+# Loading work.MCPU_Registerfile
+# Loading work.MCPU_RAMController
+run
+run
+run
+run
+# Compile of ramcontroller.v was successful.
+# Compile of registerfile.v was successful.
+# Compile of alu.v was successful.
+# Compile of alutb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of cputb.v was successful.
+# Compile of alutb_A.v was successful.
+# Compile of alutb_B.v was successful.
+# Compile of Ramtb.v was successful.
+# Compile of Ramtb_B.v was successful.
+# Compile of benchmark_regfile.v was successful.
+# Compile of benchmark_regfile_B.v was successful.
+# Compile of LogicalShift_testbench.v was successful.
+# 13 compiles, 0 failed with no errors. 
+restart
+# Loading work.MCPU_Logical_Shift
+# Loading work.MCPU
+# Loading work.MCPU_Alu
+# Loading work.MCPU_Registerfile
+# Loading work.MCPU_RAMController
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of ramcontroller.v was successful.
+# Compile of registerfile.v was successful.
+# Compile of alu.v was successful.
+# Compile of alutb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of cputb.v was successful.
+# Compile of alutb_A.v was successful.
+# Compile of alutb_B.v was successful.
+# Compile of Ramtb.v was successful.
+# Compile of Ramtb_B.v was successful.
+# Compile of benchmark_regfile.v was successful.
+# Compile of benchmark_regfile_B.v was successful.
+# Compile of LogicalShift_testbench.v was successful.
+# 13 compiles, 0 failed with no errors. 
+restart
+# Loading work.MCPU_Logical_Shift
+# Loading work.MCPU
+# Loading work.MCPU_Alu
+# Loading work.MCPU_Registerfile
+# Loading work.MCPU_RAMController
+run
+run
+run
+# WARNING: No extended dataflow license exists
+# WARNING: No extended dataflow license exists
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of ramcontroller.v was successful.
+# Compile of registerfile.v was successful.
+# Compile of alu.v was successful.
+# Compile of alutb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of cputb.v was successful.
+# Compile of alutb_A.v was successful.
+# Compile of alutb_B.v was successful.
+# Compile of Ramtb.v was successful.
+# Compile of Ramtb_B.v was successful.
+# Compile of benchmark_regfile.v was successful.
+# Compile of benchmark_regfile_B.v was successful.
+# Compile of LogicalShift_testbench.v was successful.
+# 13 compiles, 0 failed with no errors. 
+restart
+# Loading work.MCPU_Logical_Shift
+# Loading work.MCPU
+# Loading work.MCPU_Alu
+# Loading work.MCPU_Registerfile
+# Loading work.MCPU_RAMController
+run
+run
+run
+# WARNING: No extended dataflow license exists
+quit -sim
+vsim work.MCPU_Logical_Shift
+# vsim work.MCPU_Logical_Shift 
+# Loading work.MCPU_Logical_Shift
+# Loading work.MCPU
+# Loading work.MCPU_Alu
+# Loading work.MCPU_Registerfile
+# Loading work.MCPU_RAMController
+quit -sim
+vsim work.MCPU
+# vsim work.MCPU 
+# Loading work.MCPU
+# Loading work.MCPU_Alu
+# Loading work.MCPU_Registerfile
+# Loading work.MCPU_RAMController
+do {D:/MP Homework/HM6/MicroCPU/Fibonacci_wave.do}
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: dimsi  Hostname: DESKTOP-V5P4235  ProcessID: 13980
+# 
+#           Attempting to use alternate WLF file "./wlftdnwj5y".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftdnwj5y
+# 
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/STATE_AS_STR'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/pc'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/opcode'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/operand1'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/operand2'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/operand3'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 8
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/regset_cmd'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 9
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/regset_wb'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 10
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/regdatatoload'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 11
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/RegOp1'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 12
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/regfileinst/R'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 13
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/raminst/mem'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 14
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/raminst/mem[20]'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 15
+do {D:/MP Homework/HM6/MicroCPU/Fibonacci_wave.do}
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/STATE_AS_STR'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/pc'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/opcode'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/operand1'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/operand2'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/operand3'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 8
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/regset_cmd'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 9
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/regset_wb'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 10
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/regdatatoload'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 11
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/RegOp1'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 12
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/regfileinst/R'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 13
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/raminst/mem'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 14
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/raminst/mem[20]'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 15
+do {D:/MP Homework/HM6/MicroCPU/Fibonacci_wave.do}
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/STATE_AS_STR'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/pc'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/opcode'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/operand1'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/operand2'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/operand3'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 8
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/regset_cmd'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 9
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/regset_wb'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 10
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/regdatatoload'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 11
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/RegOp1'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 12
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/regfileinst/R'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 13
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/raminst/mem'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 14
+# ** Error: (vish-4014) No objects found matching '/MCPUtb/cpuinst/raminst/mem[20]'.
+# Executing ONERROR command at macro D:\MP Homework\HM6\MicroCPU\Fibonacci_wave.do line 15
+quit -sim
+vsim work.MCPUtb
+# vsim work.MCPUtb 
+# Loading work.MCPUtb
+# Loading work.MCPU
+# Loading work.MCPU_Alu
+# Loading work.MCPU_Registerfile
+# Loading work.MCPU_RAMController
+do {D:/MP Homework/HM6/MicroCPU/Fibonacci_wave.do}
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: dimsi  Hostname: DESKTOP-V5P4235  ProcessID: 13980
+# 
+#           Attempting to use alternate WLF file "./wlfth8dq1a".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlfth8dq1a
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of ramcontroller.v was successful.
+# Compile of registerfile.v was successful.
+# Compile of alu.v was successful.
+# Compile of alutb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of cputb.v was successful.
+# Compile of alutb_A.v was successful.
+# Compile of alutb_B.v was successful.
+# Compile of Ramtb.v was successful.
+# Compile of Ramtb_B.v was successful.
+# Compile of benchmark_regfile.v was successful.
+# Compile of benchmark_regfile_B.v was successful.
+# Compile of LogicalShift_testbench.v was successful.
+# 13 compiles, 0 failed with no errors. 
+vsim work.MCPU_Logical_Shift
+# vsim work.MCPU_Logical_Shift 
+# Loading work.MCPU_Logical_Shift
+# Loading work.MCPU
+# Loading work.MCPU_Alu
+# Loading work.MCPU_Registerfile
+# Loading work.MCPU_RAMController
+quit -sim
+vsim work.MCPU_Logical_Shift
+# vsim work.MCPU_Logical_Shift 
+# Loading work.MCPU_Logical_Shift
+# Loading work.MCPU
+# Loading work.MCPU_Alu
+# Loading work.MCPU_Registerfile
+# Loading work.MCPU_RAMController
